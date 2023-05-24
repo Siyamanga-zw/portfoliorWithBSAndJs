@@ -1,3 +1,10 @@
+
+
+/* logo */
+#logo{
+   width:5rem; 
+}
 body{
+    text-align: center;
     background-color: black;
 }
