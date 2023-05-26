@@ -1,10 +1,28 @@
-let about = document.querySelector('section#about .row:last-child');
+let about = document.querySelector('section#about .row');
 let aboutContent= [
-    "A proactive Full stack developer student at Life Choices Academy with strong leadership skills and volunteering experience. Possess Public Speaking skills under Department of Water and Sanitation (DWS) and former Constitution Review Committee at Metanoia Residence in Stellenbosch. In addition, I am an attentive, intuitive, and flexible learner. I excel in teams while showcasing my individuality",
+    {
+        image: 'https://i.postimg.cc/1zSD9y6H/C12-C2-Siyamanga-Zweni-1-removebg-preview.png',
+        text: "A proactive Full stack developer student at Life Choices Academy with strong leadership skills and volunteering experience. Possess Public Speaking skills under Department of Water and Sanitation (DWS) and former Constitution Review Committee at Metanoia Residence in Stellenbosch. In addition, I am an attentive, intuitive, and flexible learner. I excel in teams while showcasing my individuality",  
+cv: 'https://whimsical-dolphin-721a7d.netlify.app/files/zweni%20S%20CV.pdf',
+firsta:"#contact"
+    }
     
-]//loopthought
+    
+]//about
 aboutContent.forEach((content)=>{
-about.innerHTML += `<p class = 'lead'>${content}</p>`
+    about.innerHTML += `
+    <div class="col-md-4">
+    <img src="${content.image}" class="img-fluid rounded-start" alt="Profile">
+  </div>
+  <div class="col-md-8">
+    <div class="card-body">
+      <h5 class="card-title text-danger">ABOUT</h5>
+      <p class="card-text">${content.text}</p>
+      <a href="${contact.firsta}"> Let's Connect</a>
+      <a  target="_blank" href="${content.cv}">Download CV </a>
+    </div>
+  </div>
+    `
 })
 
 //edu
@@ -47,7 +65,7 @@ let education = [
         year: 2018,
         description: 'I got my National Senior Cirtificate',
         place: 'Manzomthombo Senior Secondary',
-        type: 'Bachelor with 4 distinctions',
+        type: 'certificate',
         certificate: ''
     },
   
@@ -67,3 +85,7 @@ education.forEach((data)=> {
     </div>
     `
 })
+//
+{
+
+}
