@@ -10,10 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Portfolio With Bs And JS</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg " style="background-color: black;">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: black;" >
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <!--logo-->
@@ -31,17 +32,18 @@
                 <a class="nav-link text-white" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#Edu">Education</a>
+                <a class="nav-link text-white" aria-current="page" href="#Education">Education</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" aria-current="page" href="#">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">Testimonials</a>
+                <a class="nav-link text-white" aria-current="page" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">Projects</a>
+                <a class="nav-link text-white" aria-current="page" href="#testimonials">Testimonials</a>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link text-white" aria-current="page" href="#contact">Contact</a>
               </li>
@@ -57,38 +59,245 @@
             <div class="column">
               <div class="text">
                 <h4 class="display-4 text-white"> Hello, I'm <b class="hd text-danger">Siyamanga</b> </h4> <br><h5> <span> An aspiring software developer</span></h5>
-                <br><button class="btn text-danger"> Connect with me </button>
+                <br><button class="btn"> You can Connect with me <span class="LandingConn"><a href="#contact">here</a></span></button>
                </div> 
                 <img class="img-fluid" src="https://i.postimg.cc/1zSD9y6H/C12-C2-Siyamanga-Zweni-1-removebg-preview.png" alt="profile" loading="lazy">
             </div>
            
         </section>
-        <section class="container" id ="about">
-            
-            <div class="row">
-            </div>
+        <section class="container-fluid" id="about">
+          <div class="row">
+
+          </div>
         </section>
-        <section class="container" id="Edu">
-           <div class="row">
-            <h2 class="display-2"> Education</h2>
-        </div> 
+        <section id="Education" class="bedy">
+          <h2 class="display-2">Education And Work Experience</h2><br><br>
+          <div class="container">
+            <div class="row">
+              <div class="column">
+                <div class="title">
+                  <h2>Education</h2>
+                </div>
+                <div class="contents">
+                  <div class="box">
+                    <h4>2023</h4>
+                    <h3>Life Choices Academy</h3>
+                    <p>Currently enrolled for a full stack developer, six months coding course at Life Choices.</p>
+                  </div>
+                  <div class="box">
+                    <h4>2022</h4>
+                    <h3>University of Johannesburg</h3>
+                    <p>Completed second year of studies towards BCom Accounting degree.</p>
+                  </div>
+                  <div class="box">
+                    <h4>2020</h4>
+                    <h3>Stellenbosch University</h3>
+                    <p>Completed first year of studies towards Bachelor of Commerse in Accounting</p>
+                  </div>
+                  <div class="box">
+                    <h4>2018</h4>
+                    <h3>Manzomthombo Senior Secondary</h3>
+                    <p>Obtained National Senior Cirtificate</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="title">
+                  <h2>Work & Experience</h2>
+                </div>
+                <div class="contents">
+                  <div class="box">
+                    <h4>2022</h4>
+                    <h3>Marketing and Business Corporate</h3>
+                    <p>Marketing Director</p>
+                  </div>
+                  <div class="box">
+                    <h4>2021</h4>
+                    <h3>Stellenbosch University</h3>
+                    <p>Constitution Review Committe.</p>
+                    <p>Worked as a constitution reviwer of Metanoia Residence.</p>
+                  </div>
+                  <div class="box">
+                    <h4>2019</h4>
+                    <h3>Lingomso Caters</h3>
+                    <p>Waitress</p>
+                    <p>worked as a waitress and a runner at lingomso Cheffs</p>
+                  </div>
+                  <div class="box">
+                    <h4>2019</h4>
+                    <h3>Masigcine Childrens Home</h3>
+                    <p>Volunteered at Masigcine Childrens Home, Assisted domestically</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+        </section>
+        <section id="projects">
+<h2 class="display-2">Projects</h2>
 <div class="row">
-    <div class="education"></div>
+
 </div>
         </section>
-        <section class="container">
-            <h2 class="display-2"></h2>
-        </section>
-        <section class="container">
-            <h2 class="display-2"></h2>
-        </section>
-        <section class="container">
-            <h2 class="display-2"></h2>
+        <section class="container" id="testimonials">
+            
+            <h1 class="display-2">Testimonials</h1>
+      <div class="wrapper">
+        <div class="box" style="height: 340px;">
+          <i class="fas fa-quote-left quote"></i>
+          <p>Working with Siyamanga was an incredible experience. Her professionalism and attention to detail and made
+            the entire process seamless. She consistently exceeded my expectations and delivered exceptional results. I
+            highly recommend her.</p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Uzukhanye Dywili</div>
+              <div class="description">Assistant Lecture</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="https://i.postimg.cc/8Cw8pwsp/C11-Uzukhanye-Dywili-4.jpg" allt="mentor" loading="lazy"></div>
+          </div>
+        </div>
+
+
+
+        <div class="box"  style="height: 340px;" >
+          <i class="fas fa-quote-left quote"></i>
+          <p>Siyamanga is a highly thought intellectual from my perspective. She is kind, passionate, ambitious, and hardworking. She has great communication skills and is an absolute pleasure in the work place. Any company would be lucky to have her on their team.</p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Thotyelwa Mpongwana</div>
+              <div class="description">Colleage</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="./images/IMG_1425.jpg" alt="colleague" loading="lazy"></div>
+          </div>
+        </div>
+
+        <div class="box" style="height: 350px;">
+          <i class="fas fa-quote-left quote"></i>
+          <p>Working with Siyamanga was an incredible experience. Her professionalism, attention to detail, and
+            communication skills made the entire process seamless. She consistently NEED A REFFERAL</p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Laiquah Cotie</div>
+              <div class="description">Colleague</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="https://i.postimg.cc/JnPRFMjQ/C12-Laiquah-Cotie-2.jpg" alt="mentor" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrapper">
+        <div class="box" style="height: 340px;">
+          <i class="fas fa-quote-left quote"></i>
+          <p>Siyamanga is an exceptional learner with a keen eye for detail, she is an excellent team player who always
+            goes above and beyond to support her fellow students. Her determination, and willingness to collaborate
+            makes her a valuable asset to any team.</p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Kgodisho</div>
+              <div class="description">Colleague</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="https://i.postimg.cc/XNKyLCZf/kgodishoface.jpg" allt="mentor" loading="lazy"></div>
+          </div>
+        </div>
+
+
+
+        <div class="box" style="height: 350px;">
+          <i class="fas fa-quote-left quote"></i>
+          <p> Siyamanga is dedicated, hard working and a team player. She works well with her peers and performs well on
+            her projects.She has a good understanding of web development and would be a valuable addition to any team
+            that is lucky enough to haveher.
+          </p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Aphelele Joyi</div>
+              <div class="description">Colleague</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star"  style="color:#DC3545;"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="https://i.postimg.cc/gk6PVvts/C12-Aphelele-Joyi-1.jpg" allt="mentor" loading="lazy"></div>
+          </div>
+        </div>
+
+
+
+        <div class="box" style="height: 340px;">
+          <i class="fas fa-quote-left quote"></i>
+          <p>Siyamanga is a highly thought intellectual from my perspective. She is brilliant, passionate, ambitious,
+            and extremely hardworking. She has great communication and leadership skills.</p>
+          <div class="information">
+            <div class="info">
+              <div class="Name">Nuraan Samsodien</div>
+              <div class="description">Colleague</div>
+              <div class="stars">
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+                <i class="fas fa-star" style="color:#DC3545;"></i>
+              </div>
+            </div>
+            <div class="photos"><img src="https://i.postimg.cc/2SRN2VPD/C12-C2-Nuraan-Samsodien-1.jpg" allt="mentor" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
         </section>
         <section class="container" id="contact">
-            <h2 class="display-2"></h2>
+            <h2 class="display-2">Contact form</h2>
+            <div class="mb-3" style="width: 700px;">
+              <label for="exampleFormControlInput1" class="form-label">First Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+            </div>
+            <div class="mb-3" style="width: 700px;">
+              <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your surname">
+            </div>
+            <div class="mb-3" style="width: 700px;">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3" style="width: 700px;">
+              <label for="exampleFormControlTextarea1" class="form-label">Message me</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
         </section>
       </main>
+
+
       <footer class="container-fluid">
         <p class="lead">Copyright &copy; 2023</p>
       </footer>
